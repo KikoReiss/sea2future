@@ -66,7 +66,7 @@ class LiveView(bpy.types.Operator):
         object.rotation_euler[1] = data[1]  # Pitch
         object.rotation_euler[2] = data[2]  # Heading
 
-        # close the connection
+        # close the socket connection
         s.close()
 
 
