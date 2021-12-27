@@ -32,6 +32,7 @@ class LoadFile(bpy.types.Operator):
             y = dataframe['center.y [m]'][index]
             z = dataframe['center.z [m]'][index]
 
+            # Both or Position
             if tool.attitude_type in {'OP1', 'OP2'}:
                 context.active_object.location = (float(x), float(y), float(z))
 
@@ -43,6 +44,7 @@ class LoadFile(bpy.types.Operator):
             pitch = np.radians(dataframe['pitch [deg]'][index])
             yaw = np.radians(dataframe['yaw [deg]'][index])
 
+            # Both or Rotation
             if tool.attitude_type in {'OP1', 'OP3'}:
                 context.active_object.rotation_euler = (float(roll), float(pitch), float(yaw))
 
