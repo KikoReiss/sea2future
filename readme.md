@@ -19,14 +19,6 @@ The addon will be visible in the <b>Collection Properties</b>.
 
 Currently the addon has 2 different features.
 
-- <b>Live View</b>
+- <b>Live View</b> - Allows a real time visualization of a body attitude by changing the rotation of an object.
 
-  Allows a real time visualization of a body attitude by changing the rotation of an object.
-
-  To use this feature the user just needs to choose the <b>connection type</b> from the dropdown menu and then fill the form that appears. Then press the button and the object that is currently selected will begin to rotate accordingly to the values that it receives.
-
-- <b>Load File</b>
-
-  Allows the import of a file that contains information about the attitude of a body.
-
-  To use this feature the user just needs to choose the <b>attitude type</b> from the dropdown menu and then load the file that contains the attitude information. Then press the button and a group of keyframes where the objet rotation change will be added to the selected objet.
+- <b>Load File</b> - Allows the import of a file that contains information about the attitude of a body.
