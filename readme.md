@@ -2,9 +2,7 @@
 
 [![Generic badge](https://img.shields.io/badge/version-0.2.2-green.svg)](https://shields.io/)
 
-<b>sea2future</b> is a Blender addon that is in develop for a master thesis.
-
-## Background
+This add-on was developed with the purpose of giving Blender the capacity of a visualisation of the attitude of a USV (Unmanned Surface Vehicle). Being able to do it in real time, or by reading a file that would contain information about it.
 
 ## Installation and Usage
 
@@ -19,10 +17,10 @@ The addon will be visible in the <b>Collection Properties</b>.
 
 Currently the addon has 2 different features.
 
-- Live View
+- <b>Live View</b>
 
   Allows a real time visualization of a body attitude by changing the rotation of an object.
 
-- Load File
+- <b>Load File</b>
 
   Allows the import of a file that contains information about the attitude of a body. At the moment only works with <b>csv</b> files, where the headers have a specific name.
