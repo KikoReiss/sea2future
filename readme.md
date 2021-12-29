@@ -4,6 +4,8 @@
 
 This add-on was developed with the purpose of giving Blender the capacity of a visualisation of the attitude of a USV (Unmanned Surface Vehicle). Being able to do it in real time, or by reading a file that would contain information about it.
 
+![](./doc/example.gif)
+
 ## Installation and Usage
 
 1. Download the zip file, do not unzip it.
@@ -24,5 +26,3 @@ Currently the addon has 2 different features.
 - <b>Load File</b>
 
   Allows the import of a file that contains information about the attitude of a body. At the moment only works with <b>csv</b> files, where the headers have a specific name.
-
-  ![](./doc/load_file_example.gif)
