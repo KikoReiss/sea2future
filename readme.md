@@ -15,7 +15,7 @@ This addon was developed with the purpose of giving Blender the capacity of a vi
 
 The addon will be visible in the <b>Collection Properties</b>.
 
-## Usage
+## Features
 
 Currently the addon has 2 different features.
 
