@@ -24,3 +24,5 @@ Currently the addon has 2 different features.
 - <b>Load File</b>
 
   Allows the import of a file that contains information about the attitude of a body. At the moment only works with <b>csv</b> files, where the headers have a specific name.
+
+  ![](./doc/load_file_example.gif)
