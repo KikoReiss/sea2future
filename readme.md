@@ -4,7 +4,7 @@
 
 This addon was developed with the purpose of giving Blender the capacity of a visualisation of the attitude of a USV (Unmanned Surface Vehicle). Being able to do it in real time, or by reading a file that would contain information about it.
 
-![](./doc/example.gif)
+![](./Addon Example.gif)
 
 ## Installation
 
